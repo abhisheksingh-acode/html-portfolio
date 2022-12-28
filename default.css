@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --theme-dark-green: #0db48c;
+  --theme-dark-green-500: #acc02e;
+  --theme-dark-red: #ff1c1c;
+  --theme-dark-black: #000000;
+  --theme-dark-grey: #161616;
+  --theme-dark-grey-500: #131313;
+  --theme-dark-yellow-500: #FAC300;
+  --theme-dark-blue: #0d50df;
+  --theme-dark-purple: #5f24e6;
+  --theme-white: #ffffff;
+  --theme-bright-shadow-black: 0 4px 4 rgba(0, 0, 0, 0.25);
+  --theme-bright-shadow-red: 0 1px 32px -4px rgb(242, 27, 27),
+    0 4px 4px rgba(0, 0, 0, 0.25);
+}
+html{
+   scroll-behavior: smooth;
+}
+.fs-hireme-button {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 150px;
+  height: fit-content;
+  padding: 5px 0;
+  color: var(--theme-white);
+  background: var(--theme-dark-red);
+  box-shadow: var(--theme-bright-shadow-red);
+  border-radius: 8px;
+  margin: 40px 10px;
+  transition: all .2s linear;
+}
+.fs-hireme-button:hover{
+   width: 160px;
+}
+
+.fs-hireme-button .fs-vector {
+  width: 28px;
+  height: auto;
+}
+
+.fs-hero-span {
+  color: var(--theme-dark-red);
+}
+
+.fs-section-title {
+  font-weight: 300;
+  color: var(--theme-white);
+  font-size: 80px;
+  letter-spacing: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
